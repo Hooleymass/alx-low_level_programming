@@ -8,23 +8,23 @@
  */
 int main(void)
 {
-	unsigned long fib1 = 0, fib2 = 1, fibsum;
-	int tot_sum = 0;
+        unsigned long fib1 = 0, fib2 = 1, fibsum;
+        int tot_sum = 0;
 
-	while (1)
-	{
-		fibsum = fib1 + fib2;
-		if (fibsum > 4000000)
-			break;
+        while (1)
+        {
+                fibsum = fib1 + fib2;
+                if (fibsum > 4000000)
+                        break;
 
-		if ((fibsum % 2) == 0)
-			tot_sum += fibsum;
+                if ((fibsum % 2) == 0)
+                        tot_sum += fibsum;
 
-		fib1 = fib2;
-		fib2 = fibsum;
-	}
-	printf("%d\n", tot_sum);
+                fib1 = fib2;
+                fib2 = fibsum;
+        }
+        printf("%d\n", tot_sum);
 
-	return (0);
+        return (0);
 }
 
