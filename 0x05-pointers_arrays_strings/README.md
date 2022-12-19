@@ -56,3 +56,45 @@ printf("a=%d, b=%d\n", a, b);
 a=98, b=42
 a=42, b=98
 ```
+
+# 3-puts.c
+## _puts
+This function prints a string followed by a new line to stdout.
+
+Prototype
+```c
+void _puts(char *str);
+```
+## Description
+The _puts function takes a pointer to a string as its argument and iterates through the string character by character, printing each character to stdout using the putchar function. It then prints a new line character to signal the end of the string.
+
+## Arguments
+str: A pointer to the string to be printed.
+## Example
+```c
+char *str = "I do not fear computers. I fear the lack of them - Isaac Asimov";
+_puts(str);
+```
+## Output:
+
+```c
+I do not fear computers. I fear the lack of them - Isaac Asimov
+```
+## Additional Examples
+Here are a few more examples of how the _puts function can be used:
+
+```c
+char *str1 = "Hello, world!";
+_puts(str1);
+char *str2 = "To be or not to be, that is the question.";
+_puts(str2);
+```
+## Output:
+
+```c
+Hello, world!
+```
+## Error Handling
+The _puts function does not have any error handling behavior. It is the responsibility of the caller to ensure that the pointer passed to the function is valid and points to a null-terminated string.
+
+
