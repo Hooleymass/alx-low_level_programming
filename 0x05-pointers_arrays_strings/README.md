@@ -59,7 +59,7 @@ a=42, b=98
 
 # 3-puts.c
 ## _puts
-This function prints a string followed by a new line to stdout.
+This function prints a string followed by a new line to `stdout`.
 
 Prototype
 ```c
@@ -69,7 +69,7 @@ void _puts(char *str);
 The _puts function takes a pointer to a string as its argument and iterates through the string character by character, printing each character to stdout using the putchar function. It then prints a new line character to signal the end of the string.
 
 ## Arguments
-str: A pointer to the string to be printed.
+`str`: A pointer to the string to be printed.
 ## Example
 ```c
 char *str = "I do not fear computers. I fear the lack of them - Isaac Asimov";
@@ -95,18 +95,19 @@ _puts(str2);
 Hello, world!
 ```
 ## Error Handling
-The _puts function does not have any error handling behavior. It is the responsibility of the caller to ensure that the pointer passed to the function is valid and points to a null-terminated string.
+The `_puts` function does not have any error handling behavior. It is the responsibility of the caller to ensure that the pointer passed to the function is valid and points to a null-terminated string.
 
 # 2-strlen.c
 ## _strlen function
-The _strlen function returns the length of a null-terminated string.
+The `_strlen` function returns the length of a null-terminated string.
 
 ## Prototype
 ```c
 int _strlen(char *s);
-Parameters
-s: a pointer to a null-terminated string
 ```
+## Parameters
+`s`: a pointer to a null-terminated string
+
 ## Return value
 The length of the string, including the null terminator.
 
@@ -127,5 +128,5 @@ int main(void)
 16
 ```
 ## Note
-The standard library provides a similar function: strlen. Run man strlen to learn more.
+The standard library provides a similar function: `strlen`. Run `man strlen` to learn more.
 
