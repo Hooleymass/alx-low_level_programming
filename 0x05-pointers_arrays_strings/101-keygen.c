@@ -31,16 +31,17 @@ int main(void)
     while (1)
     {
         /**
-	 * Generate a random password
-	 */
-        for (int i = 0; i < PASSWORD_LENGTH; i++)
+         * Generate a random password
+         */
+        int i;
+        for (i = 0; i < PASSWORD_LENGTH; i++)
         {
             password[i] = rand() % 10;
         }
 
         /**
-	 * Check if the password is valid
-	 */
+         * Check if the password is valid
+         */
         if (is_valid_password())
         {
             break;
@@ -50,7 +51,8 @@ int main(void)
     /**
      * Print the generated password
      */
-    for (int i = 0; i < PASSWORD_LENGTH; i++)
+    int i;
+    for (i = 0; i < PASSWORD_LENGTH; i++)
     {
         printf("%d", password[i]);
     }
