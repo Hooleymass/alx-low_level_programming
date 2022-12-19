@@ -5,13 +5,13 @@ This program demonstrates how to update the value of an integer using a pointer 
 ## Usage
 
 To use this program, compile the `0-reset_to_98.c` and `0-main.c` files using the following command:
-'''c
+```c
 gcc -Wall -pedantic -Werror -Wextra -std=gnu89 0-main.c 0-reset_to_98.c -o 0-98
 
 
 Then, run the resulting executable:
 
-'''c
+```c
 ./98
 
 
@@ -25,7 +25,7 @@ This will output the original value of the integer (402) and the updated value (
 
 ## Example Output
 
-'''c
+```c
 n=402
 n=98
 
@@ -44,7 +44,7 @@ This function swaps the values of two integers using a temporary variable.
 void swap_int(int *a, int *b);
 
 ## Example:
-'''c
+```c
 int a = 98;
 int b = 42;
 printf("a=%d, b=%d\n", a, b);
@@ -52,7 +52,7 @@ swap_int(&a, &b);
 printf("a=%d, b=%d\n", a, b);
 
 ## Output:
-'''c
+```c
 a=98, b=42
 a=42, b=98
 
