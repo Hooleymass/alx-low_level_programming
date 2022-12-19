@@ -33,3 +33,23 @@ n=98
 - This program follows the Betty style guidelines for C code.
 - The `main.h` header file is used to declare the function prototype and define any constants or macros that will be used in the program.
 
+
+# swap_int
+
+This function swaps the values of two integers using a temporary variable.
+
+Prototype:
+void swap_int(int *a, int *b);
+
+Example:
+int a = 98;
+int b = 42;
+printf("a=%d, b=%d\n", a, b);
+swap_int(&a, &b);
+printf("a=%d, b=%d\n", a, b);
+
+Output:
+
+a=98, b=42
+a=42, b=98
+
