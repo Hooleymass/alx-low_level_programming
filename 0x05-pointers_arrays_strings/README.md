@@ -97,4 +97,35 @@ Hello, world!
 ## Error Handling
 The _puts function does not have any error handling behavior. It is the responsibility of the caller to ensure that the pointer passed to the function is valid and points to a null-terminated string.
 
+# 2-strlen.c
+## _strlen function
+The _strlen function returns the length of a null-terminated string.
+
+## Prototype
+```c
+int _strlen(char *s);
+Parameters
+s: a pointer to a null-terminated string
+```
+## Return value
+The length of the string, including the null terminator.
+
+## Example
+```c
+#include <stdio.h>
+
+int main(void)
+{
+    char *str = "My first strlen!";
+    int len = _strlen(str);
+    printf("%d\n", len);
+    return 0;
+}
+```
+## Output: 
+```c
+16
+```
+## Note
+The standard library provides a similar function: strlen. Run man strlen to learn more.
 
