@@ -3,26 +3,25 @@
 #include <time.h>
 
 /**
- * main - entry point generates a random password
+ * main - generates a random valid password for the program 101-crackme
  *
- * Return: the generated password
+ * Return: always 0
  */
-
 int main(void)
 {
-	char c;
-	int x;	
+  // Seed the random number generator with the current time
+  srand(time(NULL));
 
-	srand(time(0));
-	while (x <= 2645)
-	{
-		c = rand() % 128;
-		if (isprint(c))
-		{
-			x += c;
-			putchar(c);
-		}
-	}
-	putchar(2772 - x);
-	return (0);
+  // Generate a random number between 1 and 10
+  int r = rand() % 10 + 1;
+
+  // Generate a random password using the random number
+  char password[9];
+  sprintf(password, "%d%d%d%d%d%d%d%d", r, r + 1, r + 2, r + 3, r + 4, r + 5, r + 6, r + 7);
+
+  // Print the password
+  printf("%s\n", password);
+
+  return (0);
 }
+
