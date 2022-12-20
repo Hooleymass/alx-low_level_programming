@@ -1,19 +1,29 @@
 #include "main.h"
-#include <stdio.h>
-
 /**
- * main - check the code
+ * rev_string - reverse the string.
+ * @s: pointer to string.
  *
- * Return: Always 0.
+ * Return: void.
  */
-
-int main(void)
+void rev_string(char *s)
 {
-	char s[10] = "My School";
+	int i, j, k, temp;
 
-	printf("%s\n", s);
-	rev_string(s);
-	printf("%s\n", s);
-	return (0);
+	i = 0;
+	while (s[i] != '\0')
+	{
+		i++;
+	}
+	k = 0;
+	j = i - 1;
+
+	while (k < j)
+	{
+		temp = s[k];
+		s[k] = s[j];
+		s[j] = temp;
+		k++;
+		j--;
+	}
 }
 
