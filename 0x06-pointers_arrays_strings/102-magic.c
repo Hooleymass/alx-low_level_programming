@@ -1,4 +1,4 @@
-#include <main.h>
+#include "main.h"
 
 /**
  * 102-magic.c - program that prints a[2] = 98, followed by a new line
