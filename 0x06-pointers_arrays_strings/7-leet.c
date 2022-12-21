@@ -1,47 +1,25 @@
 #include "main.h"
 
 /**
- * leet - Convert a string to leet speak.
- * @s: The string to convert.
+ * leet - encodes a string into 1337
+ * @s: string to encode
  *
- * Return: A pointer to the converted string.
+ * Return: address of s
  */
 char *leet(char *s)
 {
-    int i = 0;
-    int j = 0;
+	int i, j;
+	char a[] = "aAeEoOtTlL";
+	char b[] = "4433007711";
 
-    while (s[i] != '\0')
-    {
-        while (j < 5)
-        {
-            if (s[i] == "AEOTLaeotl"[j])
-            {
-                s[i] = "4307143071"[j];
-                break;
-            }
-            j++;
-        }
-        j = 0;
-        i++;
-    }
-
-    return (s);
+	for (i = 0; *(s + i); i++)
+	{
+		for (j = 0; j <= 9; j++)
+		{
+			if (a[j] == s[i])
+				s[i] = b[j];
+		}
+	}
+	return (s);
 }
-
-/**
- * main - Test the leet function.
- *
- * Return: Always 0.
- */
-int main(void)
-{
-    char s[] = "Expect the best. Prepare for the worst. Capitalize on what comes.\n";
-    char *p;
-
-    p = leet(s);
-    printf("%s", p);
-    printf("%s", s);
-    return (0);
-}
-
+/* Doing hard things is a must */
