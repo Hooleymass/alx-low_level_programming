@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * 102-magic.c - program that prints a[2] = 98, followed by a new line
@@ -12,7 +13,7 @@ int main(void)
     int a[5];
     int *p;
 
-    a[2] = 1024;
+    a[2] = 98;
     p = &n;
     printf("a[2] = %d\n", *(p + 2));
     return (0);
