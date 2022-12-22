@@ -130,9 +130,8 @@ Hello World!
 ```
 
 ## Additional resources
-•[strcat function](https://www.tutorialspoint.com/c_standard_library/c_function_strcat.htm)
- - An online tutorial on the `strcat` function from the C standard library
-•[C Strings and String Functions](https://www.tutorialspoint.com/cprogramming/c_strings.htm)
- - An online tutorial on strings and string functions in C
+•[strcat function](https://www.tutorialspoint.com/c_standard_library/c_function_strcat.htm) - An online tutorial on the `strcat` function from the C standard library
+
+•[C Strings and String Functions](https://www.tutorialspoint.com/cprogramming/c_strings.htm) - An online tutorial on strings and string functions in C
 
 
