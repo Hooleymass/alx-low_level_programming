@@ -3,7 +3,7 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-hooley--mass-green?logo=linkedin)](https://www.linkedin.com/in/hooley-mass)  [![Instagram](https://img.shields.io/badge/Instagram-hooleymars-ff5e9e?logo=instagram)](https://www.instagram.com/hooley.mars.1/)
 
-[![alx-intranet](https://img.shields.io/badge/alx--intranet-projects-orange)](https://alx-intranet.hbtn.io/projects/216)  [![YouTube](https://img.shields.io/badge/YouTube-hooleymass2-red?logo=youtube)](https://www.youtube.com/channel/hooleymass2)
+[![alx-intranet](https://img.shields.io/badge/alx--intranet-projects-orange)](https://alx-intranet.hbtn.io/projects/216)  [![YouTube](https://img.shields.io/badge/YouTube-hooleymass-red?logo=youtube)](https://www.youtube.com/channel/UCFyCaBtAMDZhe9rcO1qg_1w)
 
 
 Learning c in alx
