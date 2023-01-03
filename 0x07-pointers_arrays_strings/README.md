@@ -1,3 +1,6 @@
+# 0x07-pointers_arrays_strings
+
+# 0-memset.c
 # `_memset()` function
 
 This repository contains an implementation of the `_memset()` function in C.
