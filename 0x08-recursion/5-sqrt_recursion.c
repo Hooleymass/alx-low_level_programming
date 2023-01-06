@@ -1,42 +1,35 @@
 #include "main.h"
 
 /**
- * _check_sqrt - checks if two numbers are root and square
- * @i: the root
- * @n: the square
- * Return: recursive checker
+ * power_operation -> returns the natural square root of a number.
+ * @n: input number
+ * @c: iterator
+ * Return: square root or -1
  */
-
-int _check_sqrt(int n, int i)
+int power_operation(int n, int c)
 {
-	if (i * i == n)
+	if (c % (n / c) == 0)
 	{
-		return (i);
+		if (c * (n / c) == n)
+			return (c);
+		else
+			return (-1);
 	}
-	else if ((n / 2) == i)
-	{
-		return (-1);
-	}
-	return (_check_sqrt((n + 1), i));
+	return (0 + power_operation(n, c + 1));
 }
-
 /**
- * _sqrt_recursion -  the natural square root of a number
- * @n: number under condideraton
- * Return: recursive square root
+ * _sqrt_recursion -> returns the natural square root of a number
+ * @n: inputer number
+ * Return: natural square root
  */
-
 int _sqrt_recursion(int n)
 {
-	int i = 0;
-
 	if (n < 0)
-	{
 		return (-1);
-	}
-	else if (n == 1)
-	{
+	if (n == 0)
+		return (0);
+	if (n == 1)
 		return (1);
-	}
-	return (_check_sqrt(n, i));
+	return (power_operation(n, 2));
 }
+
