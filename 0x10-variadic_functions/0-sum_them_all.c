@@ -9,10 +9,10 @@
  */
 int sum_them_all(const unsigned int n, ...)
 {
-	va_list ap;
+	va_list hooley;
 	unsigned int i, sum;
 
-	va_start(ap, n);
+	va_start(hooley, n);
 	sum = 0;
 
 	if (n == 0)
@@ -20,8 +20,8 @@ int sum_them_all(const unsigned int n, ...)
 		return (0);
 	}
 	for (i = 0; i < n; i++)
-		sum += va_arg(ap, unsigned int);
-	va_end(ap);
+		sum += va_arg(hooley, unsigned int);
+	va_end(hooley);
 
 	return (sum);
 }
