@@ -84,7 +84,7 @@ Octal (base 8) equivalent: 17</p>
 
 <p>Octal is often used in computer systems, as it can be used to represent file permissions, for example, in Unix-based systems.</p>
 
-<h1 align="center">OR</h1>
+<h1 align="center"><b>OR</b></h1>
 
 
 <h3>Octal (Base 8)</h3>
