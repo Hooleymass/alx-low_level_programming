@@ -69,7 +69,7 @@ A = 10 in decimal = 1010 in binary
 
 <p>Therefore, the hexadecimal number A represents the decimal value 10. Converting between hexadecimal and binary can be helpful in working with computer memory and storage, as it allows us to represent large amounts of binary data in a compact and readable form.</p>
 
-<h2>Octal (Base 8)</h2>
+<h2 style="color: blue;">Octal (Base 8)</h2>
 <p>Octal is another compact way to represent binary data, as it uses only the digits 0-7 to represent 8 possible values. Each octal digit represents 3 bits of binary data. To convert an octal number to decimal, we first convert each octal digit to binary and then convert the resulting binary number to decimal. For example,</p>
 
 <p>Octal (base 8) number: 12<br>
@@ -84,10 +84,10 @@ Octal (base 8) equivalent: 17</p>
 
 <p>Octal is often used in computer systems, as it can be used to represent file permissions, for example, in Unix-based systems.</p>
 
-<h1 align="center"><b>OR</b></h1>
+<h1 align="center" ><b>OR</b></h1>
 
 
-<h3>Octal (Base 8)</h3>
+<h3 style="color: blue;" >Octal (Base 8)</h3>
 <p>Octal is a base 8 number system that uses eight digits: 0, 1, 2, 3, 4, 5, 6, and 7. It is used in computer programming as a compact way to represent binary data. In octal, each digit represents three binary bits.</p>
 
 <h3>Example:</h3>
