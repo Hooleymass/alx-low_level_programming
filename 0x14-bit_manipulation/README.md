@@ -10,6 +10,54 @@
 
 <p>Bitwise operations are operations that take place on individual bits within a binary value. Some common bitwise operations are:</p>
 
+
+<table>
+  <tr>
+    <th>A</th>
+    <th>B</th>
+    <th>A & B</th>
+    <th>A | B</th>
+    <th>A ^ B</th>
+    <th>~A</th>
+  </tr>
+  <tr>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>0</td>
+    <td>1</td>
+    <td>0</td>
+    <td>1</td>
+    <td>1</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>0</td>
+    <td>0</td>
+    <td>1</td>
+    <td>1</td>
+    <td>0</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>1</td>
+    <td>1</td>
+    <td>1</td>
+    <td>0</td>
+    <td>0</td>
+  </tr>
+</table>
+
+
+
+
+
 <ul>
   <li><b>AND (&):</b> returns 1 if both bits are 1, otherwise 0.</li>
   <li><b>OR (|):</b> returns 1 if either bit is 1, otherwise 0.</li>
@@ -35,6 +83,84 @@
 <h1 align="center">Bases in Bitwise Operations</h1>
 
 <p>In computer science, a <b>base</b> is used to represent numbers. In bitwise operations, the most common bases used are binary (base 2), decimal (base 10), hexadecimal (base 16), and octal (base 8).</p>
+
+
+
+
+<table>
+  <tr>
+    <th>A (Decimal)</th>
+    <th>A (Binary)</th>
+    <th>A (Octal)</th>
+    <th>A (Hexadecimal)</th>
+    <th>B (Decimal)</th>
+    <th>B (Binary)</th>
+    <th>B (Octal)</th>
+    <th>B (Hexadecimal)</th>
+    <th>A & B (Binary)</th>
+    <th>A | B (Binary)</th>
+    <th>A ^ B (Binary)</th>
+    <th>~A (Binary)</th>
+  </tr>
+  <tr>
+    <td>0</td>
+    <td>0b0</td>
+    <td>0o0</td>
+    <td>0x0</td>
+    <td>0</td>
+    <td>0b0</td>
+    <td>0o0</td>
+    <td>0x0</td>
+    <td>0b0</td>
+    <td>0b0</td>
+    <td>0b0</td>
+    <td>0b1</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>0b1</td>
+    <td>0o1</td>
+    <td>0x1</td>
+    <td>1</td>
+    <td>0b1</td>
+    <td>0o1</td>
+    <td>0x1</td>
+    <td>0b1</td>
+    <td>0b1</td>
+    <td>0b0</td>
+    <td>0b0</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>0b10</td>
+    <td>0o2</td>
+    <td>0x2</td>
+    <td>2</td>
+    <td>0b10</td>
+    <td>0o2</td>
+    <td>0x2</td>
+    <td>0b10</td>
+    <td>0b10</td>
+    <td>0b0</td>
+    <td>0b1_110</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>0b11</td>
+    <td>0o3</td>
+    <td>0x3</td>
+    <td>3</td>
+    <td>0b11</td>
+    <td>0o3</td>
+    <td>0x3</td>
+    <td>0b11</td>
+    <td>0b11</td>
+</table>
+
+
+
+
+
 
 <h2>Binary (Base 2)</h2>
 
