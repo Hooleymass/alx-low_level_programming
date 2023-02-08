@@ -158,6 +158,8 @@
     <td>0x3</td>
     <td>0b11</td>
     <td>0b11</td>
+    <td>0b0</td>
+    <td>0b11</td>
 </table>
 
 
@@ -214,7 +216,7 @@ Octal (base 8) equivalent: 17</p>
 
 <p>Octal is often used in computer systems, as it can be used to represent file permissions, for example, in Unix-based systems.</p>
 
-<h1 align="center">OR</h1>
+<h1 align="center" style="color:blue;">OR</h1>
 
 
 <h3>Octal (Base 8)</h3>
