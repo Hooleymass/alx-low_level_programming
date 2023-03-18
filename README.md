@@ -8,4 +8,5 @@
 
 Learning c in alx
 
+![ALX](https://intranet.alxswe.com/favicon_alx.ico)
 
