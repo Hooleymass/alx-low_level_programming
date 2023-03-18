@@ -10,3 +10,4 @@ Learning c in alx
 
 ![ALX](https://intranet.alxswe.com/favicon_alx.ico)
 
+![ALX](https://intranet.alxswe.com/apple-touch-icon_alx.png)
