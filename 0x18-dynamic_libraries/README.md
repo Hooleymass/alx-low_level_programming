@@ -1,2 +1,5 @@
-# 0x18-dynamic_libraries
-In this project, I learnt how to create dynamic libraries from modules and use them
+<<<<<<< HEAD
+# 0x18. C - Dynamic libraries
+=======
+tolu
+>>>>>>> a16c238fbe36e99a3d22f2acece894d95fc2082f
