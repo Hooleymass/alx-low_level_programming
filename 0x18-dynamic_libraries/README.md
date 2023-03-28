@@ -1,5 +1,6 @@
-<<<<<<< HEAD
-# 0x18. C - Dynamic libraries
-=======
-hooleymass
->>>>>>> 
+0x18-dynamic_libraries
+0x18-dynamic_libraries
+0x18-dynamic_libraries
+0x18-dynamic_libraries
+0x18-dynamic_libraries
+0x18-dynamic_libraries
